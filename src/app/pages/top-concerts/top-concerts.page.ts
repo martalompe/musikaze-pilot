@@ -58,4 +58,9 @@ export class TopConcertsPage implements OnInit {
       this.navController.navigateForward('concert', { queryParams });
     }
   }
+
+  formatDate(date: string): string {
+    const [year, month, day] = date.split('-');
+    return `${day}/${month}/${year}`;
+  }
 }

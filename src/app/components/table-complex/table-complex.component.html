@@ -48,57 +48,74 @@
       <td class="border-full">{{ item.key }}</td>
       <td class="border-left">
         {{
-          data.resumen_economico_por_tipo["A Caché"].gastos_por_familia[
-            "" + item.key
-          ]
+          formatPrice(
+            data.resumen_economico_por_tipo["A Caché"].gastos_por_familia[
+              "" + item.key
+            ]
+          )
         }}
       </td>
       <td>
         {{
-          data.resumen_economico_por_tipo["A Caché"]["gastos_por_familia_%"][
-            "" + item.key
-          ]
+          formatPercentage(
+            data.resumen_economico_por_tipo["A Caché"]["gastos_por_familia_%"][
+              "" + item.key
+            ]
+          )
         }}
       </td>
       <td class="border-right">
         {{
-          data.resumen_economico_por_tipo["A Caché"].gastos_por_familia_unidad[
-            "" + item.key
-          ]
+          formatPrice(
+            data.resumen_economico_por_tipo["A Caché"]
+              .gastos_por_familia_unidad["" + item.key]
+          )
         }}
       </td>
       <td class="border-left">
         {{
-          data.resumen_economico_por_tipo["A Empresa"].gastos_por_familia[
-            "" + item.key
-          ]
+          formatPrice(
+            data.resumen_economico_por_tipo["A Empresa"].gastos_por_familia[
+              "" + item.key
+            ]
+          )
         }}
       </td>
       <td>
         {{
-          data.resumen_economico_por_tipo["A Empresa"]["gastos_por_familia_%"][
-            "" + item.key
-          ]
+          formatPercentage(
+            data.resumen_economico_por_tipo["A Empresa"][
+              "gastos_por_familia_%"
+            ]["" + item.key]
+          )
         }}
       </td>
       <td class="border-right">
         {{
-          data.resumen_economico_por_tipo["A Empresa"]
-            .gastos_por_familia_unidad["" + item.key]
+          formatPrice(
+            data.resumen_economico_por_tipo["A Empresa"]
+              .gastos_por_familia_unidad["" + item.key]
+          )
         }}
       </td>
       <td class="border-left"></td>
       <td></td>
       <td class="border-right"></td>
-      <td class="border-left">{{ item.value }}</td>
+      <td class="border-left">{{ formatPrice(item.value) }}</td>
       <td>
         {{
-          data.resumen_economico_global["gastos_por_familia_%"]["" + item.key]
+          formatPercentage(
+            data.resumen_economico_global["gastos_por_familia_%"]["" + item.key]
+          )
         }}
       </td>
       <td class="border-right">
         {{
-          data.resumen_economico_global.gastos_por_familia_unidad["" + item.key]
+          formatPrice(
+            data.resumen_economico_global.gastos_por_familia_unidad[
+              "" + item.key
+            ]
+          )
         }}
       </td>
     </tr>
@@ -128,58 +145,74 @@
       <td class="border-full">{{ item.key }}</td>
       <td class="border-left">
         {{
-          data.resumen_economico_por_tipo["A Caché"]
-            ?.ingresos_entradas_por_familia["" + item.key]
+          formatPrice(
+            data.resumen_economico_por_tipo["A Caché"]
+              ?.ingresos_entradas_por_familia["" + item.key]
+          )
         }}
       </td>
       <td>
         {{
-          data.resumen_economico_por_tipo["A Caché"][
-            "ingresos_entradas_por_familia_%"
-          ]["" + item.key]
+          formatPercentage(
+            data.resumen_economico_por_tipo["A Caché"][
+              "ingresos_entradas_por_familia_%"
+            ]["" + item.key]
+          )
         }}
       </td>
       <td class="border-right">
         {{
-          data.resumen_economico_por_tipo["A Caché"]
-            ?.ingresos_entradas_por_familia_unidad["" + item.key]
+          formatPrice(
+            data.resumen_economico_por_tipo["A Caché"]
+              ?.ingresos_entradas_por_familia_unidad["" + item.key]
+          )
         }}
       </td>
       <td class="border-left">
         {{
-          data.resumen_economico_por_tipo["A Empresa"]
-            ?.ingresos_entradas_por_familia["" + item.key]
+          formatPrice(
+            data.resumen_economico_por_tipo["A Empresa"]
+              ?.ingresos_entradas_por_familia["" + item.key]
+          )
         }}
       </td>
       <td>
         {{
-          data.resumen_economico_por_tipo["A Empresa"][
-            "ingresos_entradas_por_familia_%"
-          ]["" + item.key]
+          formatPercentage(
+            data.resumen_economico_por_tipo["A Empresa"][
+              "ingresos_entradas_por_familia_%"
+            ]["" + item.key]
+          )
         }}
       </td>
       <td class="border-right">
         {{
-          data.resumen_economico_por_tipo["A Empresa"]
-            .ingresos_entradas_por_familia_unidad["" + item.key]
+          formatPrice(
+            data.resumen_economico_por_tipo["A Empresa"]
+              .ingresos_entradas_por_familia_unidad["" + item.key]
+          )
         }}
       </td>
       <td class="border-left"></td>
       <td></td>
       <td class="border-right"></td>
-      <td class="border-left">{{ item.value }}</td>
+      <td class="border-left">{{ formatPrice(item.value) }}</td>
       <td>
         {{
-          data.resumen_economico_global["ingresos_entradas_por_familia_%"][
-            "" + item.key
-          ]
+          formatPercentage(
+            data.resumen_economico_global["ingresos_entradas_por_familia_%"][
+              "" + item.key
+            ]
+          )
         }}
       </td>
       <td class="border-right">
         {{
-          data.resumen_economico_global.ingresos_entradas_por_familia_unidad[
-            "" + item.key
-          ]
+          formatPrice(
+            data.resumen_economico_global.ingresos_entradas_por_familia_unidad[
+              "" + item.key
+            ]
+          )
         }}
       </td>
     </tr>
@@ -209,58 +242,74 @@
       <td class="border-full border-bottom">{{ item.key }}</td>
       <td class="border-left border-bottom">
         {{
-          data.resumen_economico_por_tipo["A Caché"]
-            ?.otros_ingresos_por_familia["" + item.key]
+          formatPrice(
+            data.resumen_economico_por_tipo["A Caché"]
+              ?.otros_ingresos_por_familia["" + item.key]
+          )
         }}
       </td>
       <td class="border-bottom">
         {{
-          data.resumen_economico_por_tipo["A Caché"][
-            "otros_ingresos_por_familia_%"
-          ]["" + item.key]
+          formatPercentage(
+            data.resumen_economico_por_tipo["A Caché"][
+              "otros_ingresos_por_familia_%"
+            ]["" + item.key]
+          )
         }}
       </td>
       <td class="border-right border-bottom">
         {{
-          data.resumen_economico_por_tipo["A Caché"]
-            ?.otros_ingresos_por_familia_unidad["" + item.key]
+          formatPrice(
+            data.resumen_economico_por_tipo["A Caché"]
+              ?.otros_ingresos_por_familia_unidad["" + item.key]
+          )
         }}
       </td>
       <td class="border-left border-bottom">
         {{
-          data.resumen_economico_por_tipo["A Empresa"]
-            ?.otros_ingresos_por_familia["" + item.key]
+          formatPrice(
+            data.resumen_economico_por_tipo["A Empresa"]
+              ?.otros_ingresos_por_familia["" + item.key]
+          )
         }}
       </td>
       <td class="border-bottom">
         {{
-          data.resumen_economico_por_tipo["A Empresa"][
-            "otros_ingresos_por_familia_%"
-          ]["" + item.key]
+          formatPercentage(
+            data.resumen_economico_por_tipo["A Empresa"][
+              "otros_ingresos_por_familia_%"
+            ]["" + item.key]
+          )
         }}
       </td>
       <td class="border-right border-bottom">
         {{
-          data.resumen_economico_por_tipo["A Empresa"]
-            .otros_ingresos_por_familia_unidad["" + item.key]
+          formatPrice(
+            data.resumen_economico_por_tipo["A Empresa"]
+              .otros_ingresos_por_familia_unidad["" + item.key]
+          )
         }}
       </td>
       <td class="border-left border-bottom"></td>
       <td class="border-bottom"></td>
       <td class="border-right border-bottom"></td>
-      <td class="border-left border-bottom">{{ item.value }}</td>
+      <td class="border-left border-bottom">{{ formatPrice(item.value) }}</td>
       <td class="border-bottom">
         {{
-          data.resumen_economico_global["otros_ingresos_por_familia_%"][
-            "" + item.key
-          ]
+          formatPercentage(
+            data.resumen_economico_global["otros_ingresos_por_familia_%"][
+              "" + item.key
+            ]
+          )
         }}
       </td>
       <td class="border-bottom border-right">
         {{
-          data.resumen_economico_global.otros_ingresos_por_familia_unidad[
-            "" + item.key
-          ]
+          formatPrice(
+            data.resumen_economico_global.otros_ingresos_por_familia_unidad[
+              "" + item.key
+            ]
+          )
         }}
       </td>
     </tr>

@@ -45,4 +45,18 @@ export class ConcertPage implements OnInit {
         });
     });
   }
+
+  formatDate(date: string): string {
+    if (!date) return '';
+    const [year, month, day] = date.split('-');
+    return `${day}/${month}/${year}`;
+  }
+
+  formatPrice(valor: any): string {
+    if (typeof valor !== 'number' || isNaN(valor)) return '';
+    const fixed = valor.toFixed(2);
+    let [entero, decimal] = fixed.split('.');
+    entero = entero.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+    return `${entero},${decimal}€`;
+  }
 }

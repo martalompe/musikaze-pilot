@@ -34,4 +34,12 @@ export class HomePage implements OnInit {
         });
     });
   }
+
+  formatPrice(valor: any): string {
+    if (typeof valor !== 'number' || isNaN(valor)) return '';
+    const fixed = valor.toFixed(2);
+    let [entero, decimal] = fixed.split('.');
+    entero = entero.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+    return `${entero},${decimal}€`;
+  }
 }

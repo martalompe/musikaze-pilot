@@ -83,24 +83,19 @@ export class ConcertsMapComponent implements OnInit {
       }),
     }).addTo(this.map!);
 
-    const popupContent = `<a href="#" class="popup-link" data-localidad="${concert.localidad}"><strong>${concert.localidad}</strong></a>`;
+    const popupContent = `<a class="popup-link" data-localidad="${concert.localidad}"><strong>${concert.localidad}</strong></a>`;
     marker.bindPopup(popupContent);
 
-    // Escucha el evento cuando se abre el popup
-    marker.on('popupopen', () => {
-      setTimeout(() => {
-        const link = document.querySelector('.popup-link');
-        if (link) {
-          // Primero eliminamos cualquier listener anterior
-          const newLink = link.cloneNode(true);
-          link.parentNode?.replaceChild(newLink, link);
+    marker.on('popupopen', (e) => {
+      const popupEl = e.popup.getElement();
+      const link = popupEl?.querySelector('.popup-link');
 
-          newLink.addEventListener('click', (event: any) => {
-            event.preventDefault();
-            this.navigateTo(concert);
-          });
-        }
-      }, 0); // Aseguramos que el DOM esté disponible
+      if (link) {
+        link.addEventListener('click', (event: Event) => {
+          event.preventDefault();
+          this.navigateTo(concert);
+        });
+      }
     });
   }
 

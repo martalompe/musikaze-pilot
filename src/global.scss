@@ -83,8 +83,10 @@ table {
     padding: 10px 10px;
   }
 }
-
-// ion-segment-content {
-//   height: fit-content;
-//   padding: 2%;
-// }
+.popup-link {
+  cursor: pointer;
+  color: rgb(78, 78, 78) !important;
+  &:hover {
+    text-decoration: underline;
+  }
+}

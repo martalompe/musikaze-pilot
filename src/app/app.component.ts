@@ -9,7 +9,7 @@ export class AppComponent {
   public appPages = [
     { title: 'Inicio', url: '/home', icon: 'home' },
     { title: 'Bolos', url: '/concerts', icon: 'musical-note' },
-    { title: 'Top 10', url: '/top-concerts', icon: 'trophy' },
+    { title: 'Top conciertos', url: '/top-concerts', icon: 'trophy' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}

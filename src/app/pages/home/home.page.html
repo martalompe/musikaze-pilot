@@ -23,27 +23,27 @@
           <ion-card class="section-item">
             <div class="section-item-title">Gastos totales</div>
             <div class="section-item-content">
-              {{data?.resumen_economico_global?.gastos}}
+              {{formatPrice(data?.resumen_economico_global?.gastos)}}
             </div>
           </ion-card>
           <ion-card class="section-item">
             <div class="section-item-title">Ingresos por entradas</div>
             <div class="section-item-content">
-              {{data?.resumen_economico_global?.ingresos_entradas}}
+              {{formatPrice(data?.resumen_economico_global?.ingresos_entradas)}}
             </div>
           </ion-card>
 
           <ion-card class="section-item">
             <div class="section-item-title">Otros ingresos</div>
             <div class="section-item-content">
-              {{data?.resumen_economico_global?.otros_ingresos}}
+              {{formatPrice(data?.resumen_economico_global?.otros_ingresos)}}
             </div>
           </ion-card>
 
           <ion-card class="section-item">
             <div class="section-item-title">Balance</div>
             <div class="section-item-content">
-              {{data?.resumen_economico_global?.balance}}
+              {{formatPrice(data?.resumen_economico_global?.balance)}}
             </div>
           </ion-card>
         </div>
