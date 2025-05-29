@@ -12,7 +12,6 @@ export class ConcertsPage implements OnInit {
 
   async ngOnInit() {
     this.data = await this.getData();
-    console.log('DATA', this.data);
   }
 
   getData() {

@@ -1,14 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Resumen económico</ion-title>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
 <ion-content>
-  <!--TODO pensar como poner header-->
-  <ion-header>
-    <ion-toolbar>
-      <ion-title>Musikaze</ion-title>
-      <ion-buttons slot="end">
-        <ion-menu-button></ion-menu-button>
-      </ion-buttons>
-    </ion-toolbar>
-  </ion-header>
-  <ion-segment mode="ios">
+  <ion-segment [(ngModel)]="selectedSegment" mode="ios">
     <ion-segment-button value="first" content-id="first">
       <ion-label>Resumen económico general</ion-label>
     </ion-segment-button>
@@ -16,8 +15,8 @@
       <ion-label>Resumen económico por tipo</ion-label>
     </ion-segment-button>
   </ion-segment>
-  <ion-segment-view>
-    <ion-segment-content id="first">
+  <div [ngSwitch]="selectedSegment">
+    <div class="segment" *ngSwitchCase="'first'">
       @if(data){
       <div class="section">
         <div class="section-main-content">
@@ -51,26 +50,25 @@
 
         <div class="section-tables">
           <app-table-data
-            title="Otros ingresos"
-            [data]="data?.resumen_economico_global?.otros_ingresos_por_familia"
-          ></app-table-data>
-          <!-- <app-table-data
+            title="Gastos"
+            [data]="data?.resumen_economico_global?.gastos_por_familia"
+          ></app-table-data
+          ><!-- <app-table-data
             title="Ingresos por entrada"
             [data]="data?.resumen_economico_global?.ingresos_entradas_por_familia"
           ></app-table-data> -->
           <app-table-data
-            title="Gastos"
-            [data]="data?.resumen_economico_global?.gastos_por_familia"
+            title="Otros ingresos"
+            [data]="data?.resumen_economico_global?.otros_ingresos_por_familia"
           ></app-table-data>
         </div>
       </div>
       }
-    </ion-segment-content>
+    </div>
     @if(data){
-    <ion-segment-content id="second">
-      <app-table-complex
-        [data]="data"
-      ></app-table-complex> </ion-segment-content
-    >}
-  </ion-segment-view>
+    <div class="segment" *ngSwitchCase="'second'">
+      <app-table-complex [data]="data"></app-table-complex>
+    </div>
+    }
+  </div>
 </ion-content>

@@ -1,6 +1,9 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>top-concerts</ion-title>
+    <ion-title>Top conciertos</ion-title>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -8,9 +11,9 @@
   <div class="top-concerts">
     @for (concert of concerts; track $index) {
     <ion-card>
-      <div class="top-concert-item">
+      <div class="top-concert-item navigate" (click)="navigateTo(concert)">
         <ion-icon name="pin-outline"></ion-icon>
-        <span> {{concert.localidad}}</span>
+        <span> <b>{{concert.localidad}}</b></span>
       </div>
       <div class="top-concert-item">
         <ion-icon name="calendar-outline"></ion-icon>

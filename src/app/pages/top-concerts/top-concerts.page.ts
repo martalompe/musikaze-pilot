@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController, ToastController } from '@ionic/angular';
 
 @Component({
   selector: 'app-top-concerts',
@@ -8,12 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopConcertsPage implements OnInit {
   concerts: any;
-  constructor() {}
+  constructor(
+    private navController: NavController,
+    private toastController: ToastController
+  ) {}
 
   async ngOnInit() {
     const data: any = await this.getData();
     this.concerts = data.top_10_conciertos_por_venta_entradas;
-    console.log('top conciertos', this.concerts);
   }
 
   getData() {
@@ -33,5 +36,26 @@ export class TopConcertsPage implements OnInit {
           console.error('Hubo un problema al obtener el JSON:', error);
         });
     });
+  }
+
+  navigateTo(concert: any) {
+    if (concert?.ventas?.Aviso) {
+      this.toastController
+        .create({
+          mode: 'ios',
+          message: 'Sin datos de ventas',
+          duration: 3000,
+          buttons: [{ role: 'cancel', icon: 'close' }],
+        })
+        .then((toast) => toast.present())
+        .catch((error) => {
+          console.error(error);
+        });
+    } else {
+      let queryParams = {
+        id: concert.idConcierto,
+      };
+      this.navController.navigateForward('concert', { queryParams });
+    }
   }
 }

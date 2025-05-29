@@ -1,13 +1,87 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>concert</ion-title>
+    <ion-title>{{concert?.localidad}} | {{concert?.fecha}}</ion-title>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">concert</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="section">
+    <ion-card class="section-item">
+      <div class="section-item-title">Total entradas vendidas</div>
+      <div class="section-item-content">
+        <div class="item main">
+          <span>{{concert?.ventas?.total_entradas_vendidas}} </span>
+        </div>
+      </div>
+    </ion-card>
+
+    <ion-card class="section-item">
+      <div class="section-item-title">Canales de venta</div>
+      <div class="section-item-content">
+        <div class="item">
+          <ion-icon name="storefront-outline"></ion-icon>
+          <span
+            >Taquilla:
+            {{concert?.ventas?.comparacion_taquilla_vs_online?.ventas_online}}
+          </span>
+        </div>
+        <div class="item">
+          <ion-icon name="desktop-outline"></ion-icon>
+          <span
+            >Online:
+            {{concert?.ventas?.comparacion_taquilla_vs_online?.ventas_taquilla}}
+          </span>
+        </div>
+      </div>
+    </ion-card>
+
+    <ion-card class="section-item">
+      <div class="section-item-title">Métodos de pago</div>
+      <div class="section-item-content">
+        <div
+          *ngFor="let pay of concert?.ventas?.ventas_por_modo_pago | keyvalue"
+          class="item"
+        >
+          <span>{{pay.key}}: {{pay.value}} </span>
+        </div>
+      </div>
+    </ion-card>
+  </div>
+
+  <div class="recaudaciones">
+    <span class="recaudaciones-title"> Recaudación </span>
+
+    <table>
+      <tr>
+        <th>Ticket medio general</th>
+        <th>Comisiones</th>
+        <th>Descuentos</th>
+        <th>Recaudación bruta</th>
+        <th>Recaudación neta</th>
+      </tr>
+
+      <tr>
+        <td>{{concert?.ventas?.ticket_medio_general}}€</td>
+        <td>{{concert?.ventas?.total_comisiones}}€</td>
+        <td>{{concert?.ventas?.total_descuentos}}€</td>
+        <td>{{concert?.ventas?.recaudacion_bruta}}€</td>
+        <td>{{concert?.ventas?.recaudacion_neta}}€</td>
+      </tr>
+    </table>
+  </div>
+
+  <div>
+    <app-timeline-ventas-hora
+      [ventas]="concert?.ventas?.ventas_por_hora"
+    ></app-timeline-ventas-hora>
+  </div>
+
+  <div>
+    <app-chart-ventas-dia
+      [ventas]="concert?.ventas?.ventas_por_dia_semana"
+    ></app-chart-ventas-dia>
+  </div>
 </ion-content>

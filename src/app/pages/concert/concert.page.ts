@@ -13,9 +13,12 @@ export class ConcertPage implements OnInit {
     this.activatedRoute.queryParams.subscribe(async (params) => {
       if (params['id']) {
         let idConcert = params['id'];
-        let type = params['type'];
         const data: any = await this.getData();
-        const concerts = data.conciertos[type];
+        const concertsData = data.conciertos;
+        const concerts = [
+          ...concertsData['A Caché'],
+          ...concertsData['A Empresa'],
+        ];
         this.concert = concerts.find((c: any) => c.idConcierto == idConcert);
         console.log('concierto', this.concert);
       }

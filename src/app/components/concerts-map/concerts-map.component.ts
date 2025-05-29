@@ -33,8 +33,10 @@ export class ConcertsMapComponent implements OnInit {
         })),
       ];
       for (const concierto of datos) {
-        await this.delay(1200);
-        await this.getCoordinates(concierto);
+        const color = concierto.grupo === 'A Caché' ? 'gray' : 'green';
+        this.addMarker(color, concierto);
+        // await this.delay(1200);
+        // await this.getCoordinates(concierto);
       }
     }, 250);
   }
@@ -46,33 +48,33 @@ export class ConcertsMapComponent implements OnInit {
     console.log('data conciertos', this.data);
   }
 
-  getCoordinates(concert: any) {
-    const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(
-      concert.localidad
-    )}`;
+  // getCoordinates(concert: any) {
+  //   const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(
+  //     concert.localidad
+  //   )}`;
 
-    fetch(url)
-      .then((response) => response.json())
-      .then((data) => {
-        if (data && data.length > 0) {
-          const firstResult = data[0];
-          const lat = firstResult.lat;
-          const long = firstResult.lon;
-          const color = concert.grupo === 'A Caché' ? 'gray' : 'green';
-          this.addMarker(lat, long, color, concert);
-        } else {
-          console.error(
-            'No se encontraron coordenadas para la dirección proporcionada'
-          );
-        }
-      })
-      .catch((error) => {
-        console.error('Error al obtener las coordenadas:', error);
-      });
-  }
+  //   fetch(url)
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       if (data && data.length > 0) {
+  //         const firstResult = data[0];
+  //         const lat = firstResult.lat;
+  //         const long = firstResult.lon;
+  //         const color = concert.grupo === 'A Caché' ? 'gray' : 'green';
+  //         this.addMarker(lat, long, color, concert);
+  //       } else {
+  //         console.error(
+  //           'No se encontraron coordenadas para la dirección proporcionada'
+  //         );
+  //       }
+  //     })
+  //     .catch((error) => {
+  //       console.error('Error al obtener las coordenadas:', error);
+  //     });
+  // }
 
-  addMarker(lat: number, lon: number, color: string, concert: any): void {
-    const marker = L.marker([lat, lon], {
+  addMarker(color: string, concert: any): void {
+    const marker = L.marker([concert.latitud, concert.longitud], {
       icon: L.icon({
         iconUrl: `assets/icon/marker-icon-${color}.svg`,
         iconSize: [25, 41],
@@ -118,7 +120,6 @@ export class ConcertsMapComponent implements OnInit {
     } else {
       let queryParams = {
         id: concert.idConcierto,
-        type: concert.grupo,
       };
       this.navController.navigateForward('concert', { queryParams });
     }

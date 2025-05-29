@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomePage implements OnInit {
   constructor() {}
   data: any;
+  selectedSegment: string = 'first';
 
   async ngOnInit() {
     this.data = await this.getData();

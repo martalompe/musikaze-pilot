@@ -36,6 +36,15 @@
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
 
+@font-face {
+  font-family: "Quicksand";
+  src: url("assets/fonts/QuickSand/Quicksand-VariableFont_wght.ttf");
+}
+
+:root {
+  --ion-font-family: "Quicksand";
+  background: #f7f7f7;
+}
 ion-content {
   --padding-start: 5%;
   --padding-end: 5%;
@@ -53,6 +62,12 @@ table {
     border-top-left-radius: 5px;
   }
   tr:first-child td:last-child {
+    border-top-right-radius: 5px;
+  }
+  tr:first-child th:first-child {
+    border-top-left-radius: 5px;
+  }
+  tr:first-child th:last-child {
     border-top-right-radius: 5px;
   }
   tr:last-child td:first-child {

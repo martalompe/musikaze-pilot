@@ -7,14 +7,22 @@ import { IonicModule } from '@ionic/angular';
 import { ConcertPageRoutingModule } from './concert-routing.module';
 
 import { ConcertPage } from './concert.page';
+import { NgApexchartsModule } from 'ng-apexcharts';
+import { TimelineVentasHoraComponent } from 'src/app/components/timeline-ventas-hora/timeline-ventas-hora.component';
+import { ChartVentasDiaComponent } from 'src/app/components/chart-ventas-dia/chart-ventas-dia.component';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ConcertPageRoutingModule
+    ConcertPageRoutingModule,
+    NgApexchartsModule,
   ],
-  declarations: [ConcertPage]
+  declarations: [
+    ConcertPage,
+    TimelineVentasHoraComponent,
+    ChartVentasDiaComponent,
+  ],
 })
 export class ConcertPageModule {}

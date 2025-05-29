@@ -1,6 +1,30 @@
 th,
 td {
   text-align: center;
+  font-size: small;
+  min-width: 5px;
+  padding: 10px 5px;
+}
+
+th {
+  border-top: 2px solid rgb(51, 51, 51);
+}
+
+.border-full {
+  border-right: 2px solid rgb(51, 51, 51);
+  border-left: 2px solid rgb(51, 51, 51);
+}
+
+.border-right {
+  border-right: 2px solid rgb(51, 51, 51);
+}
+
+.border-left {
+  border-left: 2px solid rgb(51, 51, 51);
+}
+
+.border-bottom {
+  border-bottom: 2px solid rgb(51, 51, 51);
 }
 tr {
   background-color: rgb(235, 235, 235);

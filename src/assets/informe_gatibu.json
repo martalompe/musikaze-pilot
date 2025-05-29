@@ -2,11 +2,7 @@
   "resumen": {
     "artista": "gatibu",
     "total_conciertos": 27,
-    "tipos_conciertos": [
-      "A Empresa",
-      "A Caché",
-      "Promo/presen"
-    ],
+    "tipos_conciertos": ["A Empresa", "A Caché", "Promo/presen"],
     "conciertos_por_tipo": {
       "A Caché": 18,
       "A Empresa": 8,
@@ -189,6 +185,8 @@
       {
         "idConcierto": 110570,
         "localidad": "Elorrio",
+        "latitud": 43.129038,
+        "longitud": -2.542416,
         "fecha": "2023-04-08",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -197,6 +195,8 @@
       {
         "idConcierto": 111519,
         "localidad": "Azpeitia",
+        "latitud": 43.180484,
+        "longitud": -2.262908,
         "fecha": "2023-05-06",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -205,6 +205,8 @@
       {
         "idConcierto": 111993,
         "localidad": "Basauri",
+        "latitud": 43.238526,
+        "longitud": -2.88762,
         "fecha": "2023-06-02",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -213,6 +215,8 @@
       {
         "idConcierto": 111231,
         "localidad": "Ziburu",
+        "latitud": 43.254243,
+        "longitud": -2.924104,
         "fecha": "2023-06-10",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -221,6 +225,8 @@
       {
         "idConcierto": 110634,
         "localidad": "Sestao",
+        "latitud": 43.31035,
+        "longitud": -2.995156,
         "fecha": "2023-06-24",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -229,6 +235,8 @@
       {
         "idConcierto": 111064,
         "localidad": "Hernani",
+        "latitud": 43.268971,
+        "longitud": -1.975457,
         "fecha": "2023-06-26",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -237,6 +245,8 @@
       {
         "idConcierto": 111193,
         "localidad": "Loiu",
+        "latitud": 43.306459,
+        "longitud": -2.90837,
         "fecha": "2023-06-29",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -245,6 +255,8 @@
       {
         "idConcierto": 109220,
         "localidad": "Irissarry",
+        "latitud": 43.26235,
+        "longitud": -1.229601,
         "fecha": "2023-07-01",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -253,6 +265,8 @@
       {
         "idConcierto": 108834,
         "localidad": "Aranda de Duero",
+        "latitud": 43.673014,
+        "longitud": -3.687195,
         "fecha": "2023-08-10",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -261,6 +275,8 @@
       {
         "idConcierto": 111648,
         "localidad": "Iruña / Pamplona",
+        "latitud": 42.81795,
+        "longitud": -1.644534,
         "fecha": "2023-08-11",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -269,6 +285,8 @@
       {
         "idConcierto": 110104,
         "localidad": "Laudio",
+        "latitud": 43.140984,
+        "longitud": -2.961995,
         "fecha": "2023-08-16",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -277,6 +295,8 @@
       {
         "idConcierto": 111633,
         "localidad": "Laguardia",
+        "latitud": 42.549863,
+        "longitud": -2.583164,
         "fecha": "2023-08-18",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -285,6 +305,8 @@
       {
         "idConcierto": 108737,
         "localidad": "Bilbo",
+        "latitud": 43.261157,
+        "longitud": -2.930921,
         "fecha": "2023-08-22",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -293,6 +315,8 @@
       {
         "idConcierto": 111232,
         "localidad": "Sara",
+        "latitud": 43.312778,
+        "longitud": -1.580278,
         "fecha": "2023-09-09",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -301,6 +325,8 @@
       {
         "idConcierto": 111590,
         "localidad": "Lizaso",
+        "latitud": 42.967787,
+        "longitud": -1.685082,
         "fecha": "2023-09-10",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -309,6 +335,8 @@
       {
         "idConcierto": 113655,
         "localidad": "Vitoria-Gasteiz",
+        "latitud": 42.854794,
+        "longitud": -2.676832,
         "fecha": "2023-10-06",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -317,6 +345,8 @@
       {
         "idConcierto": 112474,
         "localidad": "Donibane Lohitzun - San Juan de Luz (Lapurdi)",
+        "latitud": 43.384017,
+        "longitud": -1.668178,
         "fecha": "2023-10-21",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -325,6 +355,8 @@
       {
         "idConcierto": 114105,
         "localidad": "Bilbo",
+        "latitud": 43.261157,
+        "longitud": -2.930921,
         "fecha": "2023-10-26",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -335,6 +367,8 @@
       {
         "idConcierto": 106372,
         "localidad": "Bilbao",
+        "latitud": 43.261157,
+        "longitud": -2.930921,
         "fecha": "2023-03-18",
         "ventas": {
           "Aviso": "Sin datos de ventas"
@@ -343,6 +377,8 @@
       {
         "idConcierto": 108505,
         "localidad": "Valencia",
+        "latitud": 39.462293,
+        "longitud": -0.368394,
         "fecha": "2023-04-14",
         "ventas": {
           "total_entradas_vendidas": 68,
@@ -430,6 +466,8 @@
       {
         "idConcierto": 106392,
         "localidad": "Madrid",
+        "latitud": 40.417452,
+        "longitud": -3.665133,
         "fecha": "2023-04-15",
         "ventas": {
           "total_entradas_vendidas": 277,
@@ -527,6 +565,8 @@
       {
         "idConcierto": 106393,
         "localidad": "Barcelona",
+        "latitud": 41.401047,
+        "longitud": 2.172373,
         "fecha": "2023-04-22",
         "ventas": {
           "total_entradas_vendidas": 187,
@@ -626,6 +666,8 @@
       {
         "idConcierto": 111535,
         "localidad": "Ondarroa",
+        "latitud": 43.321777,
+        "longitud": -2.422008,
         "fecha": "2023-05-12",
         "ventas": {
           "total_entradas_vendidas": 388,
@@ -718,6 +760,8 @@
       {
         "idConcierto": 111540,
         "localidad": "Oiartzun",
+        "latitud": 43.29831,
+        "longitud": -1.863576,
         "fecha": "2023-05-13",
         "ventas": {
           "total_entradas_vendidas": 447,
@@ -807,6 +851,8 @@
       {
         "idConcierto": 113551,
         "localidad": "Logroño",
+        "latitud": 42.464338,
+        "longitud": -2.445445,
         "fecha": "2023-11-10",
         "ventas": {
           "total_entradas_vendidas": 125,
@@ -894,6 +940,8 @@
       {
         "idConcierto": 110225,
         "localidad": "Atarrabia",
+        "latitud": 42.831836,
+        "longitud": -1.609532,
         "fecha": "2023-11-11",
         "ventas": {
           "total_entradas_vendidas": 1100,
