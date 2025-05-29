@@ -1,0 +1,76 @@
+<ion-content>
+  <!--TODO pensar como poner header-->
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Musikaze</ion-title>
+      <ion-buttons slot="end">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <ion-segment mode="ios">
+    <ion-segment-button value="first" content-id="first">
+      <ion-label>Resumen económico general</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="second" content-id="second">
+      <ion-label>Resumen económico por tipo</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+  <ion-segment-view>
+    <ion-segment-content id="first">
+      @if(data){
+      <div class="section">
+        <div class="section-main-content">
+          <ion-card class="section-item">
+            <div class="section-item-title">Gastos totales</div>
+            <div class="section-item-content">
+              {{data?.resumen_economico_global?.gastos}}
+            </div>
+          </ion-card>
+          <ion-card class="section-item">
+            <div class="section-item-title">Ingresos por entradas</div>
+            <div class="section-item-content">
+              {{data?.resumen_economico_global?.ingresos_entradas}}
+            </div>
+          </ion-card>
+
+          <ion-card class="section-item">
+            <div class="section-item-title">Otros ingresos</div>
+            <div class="section-item-content">
+              {{data?.resumen_economico_global?.otros_ingresos}}
+            </div>
+          </ion-card>
+
+          <ion-card class="section-item">
+            <div class="section-item-title">Balance</div>
+            <div class="section-item-content">
+              {{data?.resumen_economico_global?.balance}}
+            </div>
+          </ion-card>
+        </div>
+
+        <div class="section-tables">
+          <app-table-data
+            title="Otros ingresos"
+            [data]="data?.resumen_economico_global?.otros_ingresos_por_familia"
+          ></app-table-data>
+          <!-- <app-table-data
+            title="Ingresos por entrada"
+            [data]="data?.resumen_economico_global?.ingresos_entradas_por_familia"
+          ></app-table-data> -->
+          <app-table-data
+            title="Gastos"
+            [data]="data?.resumen_economico_global?.gastos_por_familia"
+          ></app-table-data>
+        </div>
+      </div>
+      }
+    </ion-segment-content>
+    @if(data){
+    <ion-segment-content id="second">
+      <app-table-complex
+        [data]="data"
+      ></app-table-complex> </ion-segment-content
+    >}
+  </ion-segment-view>
+</ion-content>

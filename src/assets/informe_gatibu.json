@@ -1,0 +1,1059 @@
+{
+  "resumen": {
+    "artista": "gatibu",
+    "total_conciertos": 27,
+    "tipos_conciertos": [
+      "A Empresa",
+      "A Caché",
+      "Promo/presen"
+    ],
+    "conciertos_por_tipo": {
+      "A Caché": 18,
+      "A Empresa": 8,
+      "Promo/presen": 1
+    }
+  },
+  "resumen_economico_global": {
+    "gastos": 562012.02,
+    "ingresos_entradas": 152522.0,
+    "otros_ingresos": 485601.89,
+    "gastos_por_familia": {
+      "": 9070.09,
+      "Administración": 5892.22,
+      "Artista": 320744.87,
+      "Caja de Resistencia": 11196.25,
+      "Hospitalidad": 7079.67,
+      "Producción": 198795.94,
+      "Transporte": 428.3,
+      "Artistas Externos": 363.0,
+      "Comunicación": 6345.01,
+      "Gestión Administración + Producción": 2096.66
+    },
+    "ingresos_entradas_por_familia": {
+      "": 152522.0
+    },
+    "otros_ingresos_por_familia": {
+      "Artista": 485601.89
+    },
+    "gastos_por_familia_%": {
+      "": 1.61,
+      "Administración": 1.05,
+      "Artista": 57.07,
+      "Caja de Resistencia": 1.99,
+      "Hospitalidad": 1.26,
+      "Producción": 35.37,
+      "Transporte": 0.08,
+      "Artistas Externos": 0.06,
+      "Comunicación": 1.13,
+      "Gestión Administración + Producción": 0.37
+    },
+    "gastos_por_familia_unidad": {
+      "": 4535.05,
+      "Administración": 2946.11,
+      "Artista": 160372.43,
+      "Caja de Resistencia": 5598.12,
+      "Hospitalidad": 3539.84,
+      "Producción": 99397.97,
+      "Transporte": 214.15,
+      "Artistas Externos": 181.5,
+      "Comunicación": 3172.51,
+      "Gestión Administración + Producción": 1048.33
+    },
+    "ingresos_entradas_por_familia_%": {
+      "": 100.0
+    },
+    "ingresos_entradas_por_familia_unidad": {
+      "": 76261.0
+    },
+    "otros_ingresos_por_familia_%": {
+      "Artista": 100.0
+    },
+    "otros_ingresos_por_familia_unidad": {
+      "Artista": 242800.94
+    },
+    "balance": 76111.87
+  },
+  "resumen_economico_por_tipo": {
+    "A Caché": {
+      "gastos": 379530.11,
+      "gastos_por_familia": {
+        "": 7739.09,
+        "Administración": 2710.4,
+        "Artista": 295742.94,
+        "Caja de Resistencia": 10257.25,
+        "Hospitalidad": 1852.43,
+        "Producción": 60966.73,
+        "Transporte": 261.26
+      },
+      "gastos_por_familia_%": {
+        "": 2.04,
+        "Administración": 0.71,
+        "Artista": 77.92,
+        "Caja de Resistencia": 2.7,
+        "Hospitalidad": 0.49,
+        "Producción": 16.06,
+        "Transporte": 0.07
+      },
+      "gastos_por_familia_unidad": {
+        "": 429.95,
+        "Administración": 150.58,
+        "Artista": 16430.16,
+        "Caja de Resistencia": 569.85,
+        "Hospitalidad": 102.91,
+        "Producción": 3387.04,
+        "Transporte": 14.51
+      },
+      "ingresos_entradas": 0.0,
+      "ingresos_entradas_por_familia": {},
+      "ingresos_entradas_por_familia_%": {},
+      "ingresos_entradas_por_familia_unidad": {},
+      "otros_ingresos": 434210.41,
+      "otros_ingresos_por_familia": {
+        "Artista": 434210.41
+      },
+      "otros_ingresos_por_familia_%": {
+        "Artista": 100.0
+      },
+      "otros_ingresos_por_familia_unidad": {
+        "Artista": 24122.8
+      },
+      "balance_neto": 54680.3,
+      "media_gastos_por_concierto": 21085.01,
+      "media_ingresos_por_concierto": 24122.8
+    },
+    "A Empresa": {
+      "gastos": 182481.91,
+      "gastos_por_familia": {
+        "": 1331.0,
+        "Administración": 3181.82,
+        "Artista": 25001.93,
+        "Artistas Externos": 363.0,
+        "Caja de Resistencia": 939.0,
+        "Comunicación": 6345.01,
+        "Gestión Administración + Producción": 2096.66,
+        "Hospitalidad": 5227.24,
+        "Producción": 137829.21,
+        "Transporte": 167.04
+      },
+      "gastos_por_familia_%": {
+        "": 0.73,
+        "Administración": 1.74,
+        "Artista": 13.7,
+        "Artistas Externos": 0.2,
+        "Caja de Resistencia": 0.51,
+        "Comunicación": 3.48,
+        "Gestión Administración + Producción": 1.15,
+        "Hospitalidad": 2.86,
+        "Producción": 75.53,
+        "Transporte": 0.09
+      },
+      "gastos_por_familia_unidad": {
+        "": 166.38,
+        "Administración": 397.73,
+        "Artista": 3125.24,
+        "Artistas Externos": 45.38,
+        "Caja de Resistencia": 117.38,
+        "Comunicación": 793.13,
+        "Gestión Administración + Producción": 262.08,
+        "Hospitalidad": 653.4,
+        "Producción": 17228.65,
+        "Transporte": 20.88
+      },
+      "ingresos_entradas": 152522.0,
+      "ingresos_entradas_por_familia": {
+        "": 152522.0
+      },
+      "ingresos_entradas_por_familia_%": {
+        "": 100.0
+      },
+      "ingresos_entradas_por_familia_unidad": {
+        "": 19065.25
+      },
+      "otros_ingresos": 51391.48,
+      "otros_ingresos_por_familia": {
+        "Artista": 51391.48
+      },
+      "otros_ingresos_por_familia_%": {
+        "Artista": 100.0
+      },
+      "otros_ingresos_por_familia_unidad": {
+        "Artista": 6423.94
+      },
+      "balance_neto": 21431.57,
+      "media_gastos_por_concierto": 22810.24,
+      "media_ingresos_por_concierto": 25489.19
+    }
+  },
+  "conciertos": {
+    "A Caché": [
+      {
+        "idConcierto": 110570,
+        "localidad": "Elorrio",
+        "fecha": "2023-04-08",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 111519,
+        "localidad": "Azpeitia",
+        "fecha": "2023-05-06",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 111993,
+        "localidad": "Basauri",
+        "fecha": "2023-06-02",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 111231,
+        "localidad": "Ziburu",
+        "fecha": "2023-06-10",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 110634,
+        "localidad": "Sestao",
+        "fecha": "2023-06-24",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 111064,
+        "localidad": "Hernani",
+        "fecha": "2023-06-26",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 111193,
+        "localidad": "Loiu",
+        "fecha": "2023-06-29",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 109220,
+        "localidad": "Irissarry",
+        "fecha": "2023-07-01",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 108834,
+        "localidad": "Aranda de Duero",
+        "fecha": "2023-08-10",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 111648,
+        "localidad": "Iruña / Pamplona",
+        "fecha": "2023-08-11",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 110104,
+        "localidad": "Laudio",
+        "fecha": "2023-08-16",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 111633,
+        "localidad": "Laguardia",
+        "fecha": "2023-08-18",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 108737,
+        "localidad": "Bilbo",
+        "fecha": "2023-08-22",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 111232,
+        "localidad": "Sara",
+        "fecha": "2023-09-09",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 111590,
+        "localidad": "Lizaso",
+        "fecha": "2023-09-10",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 113655,
+        "localidad": "Vitoria-Gasteiz",
+        "fecha": "2023-10-06",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 112474,
+        "localidad": "Donibane Lohitzun - San Juan de Luz (Lapurdi)",
+        "fecha": "2023-10-21",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 114105,
+        "localidad": "Bilbo",
+        "fecha": "2023-10-26",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      }
+    ],
+    "A Empresa": [
+      {
+        "idConcierto": 106372,
+        "localidad": "Bilbao",
+        "fecha": "2023-03-18",
+        "ventas": {
+          "Aviso": "Sin datos de ventas"
+        }
+      },
+      {
+        "idConcierto": 108505,
+        "localidad": "Valencia",
+        "fecha": "2023-04-14",
+        "ventas": {
+          "total_entradas_vendidas": 68,
+          "recaudacion_bruta": 1020.0,
+          "recaudacion_neta": 897.6,
+          "total_comisiones": 122.4,
+          "total_descuentos": 0.0,
+          "ventas_por_modo_pago": {
+            "Tarjeta": 68
+          },
+          "ventas_por_plataforma": {
+            "Android": 29,
+            "Linux": 1,
+            "Mac OS X": 10,
+            "Windows": 13,
+            "iPhone": 15
+          },
+          "ventas_por_tipoWeb": {
+            "Web": 68
+          },
+          "porcentaje_ventas_con_descuento": 0.0,
+          "ticket_medio_general": 15.0,
+          "ventas_por_hora": {
+            "19": 11,
+            "13": 8,
+            "23": 7,
+            "10": 5,
+            "20": 5,
+            "8": 4,
+            "12": 4,
+            "18": 4,
+            "14": 3,
+            "15": 3,
+            "16": 3,
+            "22": 3,
+            "9": 2,
+            "11": 2,
+            "21": 2,
+            "0": 1,
+            "1": 1
+          },
+          "ingresos_por_provincia_de_origen": {
+            "Valencia": 645,
+            "Castellón": 165,
+            "Vizcaya": 90,
+            "Guipúzcoa": 60,
+            "Álava": 30,
+            "Alicante": 15,
+            "Madrid": 15
+          },
+          "comparacion_taquilla_vs_online": {
+            "ventas_taquilla": 0,
+            "ventas_online": 68
+          },
+          "distribucion_compra_entradas": {
+            "1": 15,
+            "2": 18,
+            "3": 3,
+            "4": 2
+          },
+          "ventas_fuera_españa": {
+            "unidades": 0,
+            "porcentaje": 0.0
+          },
+          "ventas_por_dia_semana": {
+            "Monday": 7,
+            "Tuesday": 10,
+            "Wednesday": 21,
+            "Thursday": 18,
+            "Friday": 7,
+            "Saturday": 2,
+            "Sunday": 3
+          },
+          "publico_por_provincia": {
+            "Alicante": 1,
+            "Castellón": 11,
+            "Guipúzcoa": 4,
+            "Madrid": 1,
+            "Valencia": 43,
+            "Vizcaya": 6,
+            "Álava": 2
+          }
+        }
+      },
+      {
+        "idConcierto": 106392,
+        "localidad": "Madrid",
+        "fecha": "2023-04-15",
+        "ventas": {
+          "total_entradas_vendidas": 277,
+          "recaudacion_bruta": 4986.0,
+          "recaudacion_neta": 4387.68,
+          "total_comisiones": 598.32,
+          "total_descuentos": 0.0,
+          "ventas_por_modo_pago": {
+            "Tarjeta": 277
+          },
+          "ventas_por_plataforma": {
+            "Android": 94,
+            "Mac OS X": 29,
+            "Unknown": 2,
+            "Windows": 79,
+            "iPhone": 73
+          },
+          "ventas_por_tipoWeb": {
+            "Web": 277
+          },
+          "porcentaje_ventas_con_descuento": 0.0,
+          "ticket_medio_general": 18.0,
+          "ventas_por_hora": {
+            "20": 33,
+            "21": 26,
+            "11": 25,
+            "22": 25,
+            "18": 21,
+            "13": 20,
+            "16": 18,
+            "15": 17,
+            "10": 16,
+            "14": 15,
+            "9": 13,
+            "19": 12,
+            "23": 12,
+            "0": 10,
+            "12": 6,
+            "17": 3,
+            "2": 2,
+            "5": 2,
+            "6": 1
+          },
+          "ingresos_por_provincia_de_origen": {
+            "Madrid": 2898,
+            "Vizcaya": 1422,
+            "Guipúzcoa": 198,
+            "Álava": 108,
+            "Huelva": 72,
+            "Navarra": 54,
+            "Toledo": 54,
+            "Jaén": 54,
+            "Segovia": 36,
+            "Granada": 18
+          },
+          "comparacion_taquilla_vs_online": {
+            "ventas_taquilla": 0,
+            "ventas_online": 277
+          },
+          "distribucion_compra_entradas": {
+            "1": 39,
+            "2": 73,
+            "3": 7,
+            "4": 6,
+            "5": 7,
+            "6": 2
+          },
+          "ventas_fuera_españa": {
+            "unidades": 0,
+            "porcentaje": 0.0
+          },
+          "ventas_por_dia_semana": {
+            "Monday": 28,
+            "Tuesday": 51,
+            "Wednesday": 45,
+            "Thursday": 45,
+            "Friday": 39,
+            "Saturday": 32,
+            "Sunday": 37
+          },
+          "publico_por_provincia": {
+            "Granada": 1,
+            "Guipúzcoa": 11,
+            "Huelva": 4,
+            "Jaén": 3,
+            "Madrid": 161,
+            "Navarra": 3,
+            "Segovia": 2,
+            "Toledo": 3,
+            "Vizcaya": 79,
+            "Álava": 6
+          }
+        }
+      },
+      {
+        "idConcierto": 106393,
+        "localidad": "Barcelona",
+        "fecha": "2023-04-22",
+        "ventas": {
+          "total_entradas_vendidas": 187,
+          "recaudacion_bruta": 3366.0,
+          "recaudacion_neta": 2962.08,
+          "total_comisiones": 403.92,
+          "total_descuentos": 0.0,
+          "ventas_por_modo_pago": {
+            "Tarjeta": 187
+          },
+          "ventas_por_plataforma": {
+            "Android": 75,
+            "Linux": 2,
+            "Mac OS X": 18,
+            "Windows": 45,
+            "Windows 7": 1,
+            "iPhone": 46
+          },
+          "ventas_por_tipoWeb": {
+            "Web": 187
+          },
+          "porcentaje_ventas_con_descuento": 0.0,
+          "ticket_medio_general": 18.0,
+          "ventas_por_hora": {
+            "17": 23,
+            "22": 22,
+            "16": 20,
+            "10": 16,
+            "20": 14,
+            "13": 13,
+            "21": 13,
+            "23": 12,
+            "12": 8,
+            "15": 7,
+            "19": 7,
+            "8": 5,
+            "11": 5,
+            "14": 5,
+            "18": 5,
+            "0": 4,
+            "9": 4,
+            "1": 3,
+            "2": 1
+          },
+          "ingresos_por_provincia_de_origen": {
+            "Barcelona": 1962,
+            "Vizcaya": 450,
+            "Guipúzcoa": 360,
+            "Tarragona": 144,
+            "Navarra": 108,
+            "Madrid": 90,
+            "Alicante": 36,
+            "Cantabria": 36,
+            "Lleida": 36,
+            "Castellón": 36
+          },
+          "comparacion_taquilla_vs_online": {
+            "ventas_taquilla": 0,
+            "ventas_online": 187
+          },
+          "distribucion_compra_entradas": {
+            "1": 35,
+            "2": 47,
+            "3": 7,
+            "4": 8,
+            "5": 1
+          },
+          "ventas_fuera_españa": {
+            "unidades": 0,
+            "porcentaje": 0.0
+          },
+          "ventas_por_dia_semana": {
+            "Monday": 32,
+            "Tuesday": 26,
+            "Wednesday": 24,
+            "Thursday": 18,
+            "Friday": 30,
+            "Saturday": 41,
+            "Sunday": 16
+          },
+          "publico_por_provincia": {
+            "Alicante": 2,
+            "Badajoz": 1,
+            "Barcelona": 109,
+            "Cantabria": 2,
+            "Castellón": 2,
+            "Cádiz": 1,
+            "Guipúzcoa": 20,
+            "Lleida": 2,
+            "Madrid": 5,
+            "Navarra": 6,
+            "Tarragona": 8,
+            "Vizcaya": 25
+          }
+        }
+      },
+      {
+        "idConcierto": 111535,
+        "localidad": "Ondarroa",
+        "fecha": "2023-05-12",
+        "ventas": {
+          "total_entradas_vendidas": 388,
+          "recaudacion_bruta": 7760.0,
+          "recaudacion_neta": 6828.8,
+          "total_comisiones": 931.2,
+          "total_descuentos": 0.0,
+          "ventas_por_modo_pago": {
+            "Tarjeta": 388
+          },
+          "ventas_por_plataforma": {
+            "Android": 206,
+            "Mac OS X": 14,
+            "Unknown": 1,
+            "Windows": 78,
+            "Windows XP": 2,
+            "iPhone": 87
+          },
+          "ventas_por_tipoWeb": {
+            "Web": 388
+          },
+          "porcentaje_ventas_con_descuento": 0.0,
+          "ticket_medio_general": 20.0,
+          "ventas_por_hora": {
+            "11": 35,
+            "18": 32,
+            "13": 30,
+            "17": 30,
+            "19": 29,
+            "14": 28,
+            "15": 27,
+            "16": 27,
+            "22": 25,
+            "21": 23,
+            "12": 22,
+            "20": 22,
+            "10": 13,
+            "8": 11,
+            "23": 11,
+            "9": 10,
+            "0": 7,
+            "5": 2,
+            "6": 2,
+            "7": 2
+          },
+          "ingresos_por_provincia_de_origen": {
+            "Vizcaya": 6140,
+            "Guipúzcoa": 880,
+            "Álava": 360,
+            "Navarra": 280,
+            "Huesca": 60,
+            "Islas Baleares": 40
+          },
+          "comparacion_taquilla_vs_online": {
+            "ventas_taquilla": 0,
+            "ventas_online": 388
+          },
+          "distribucion_compra_entradas": {
+            "1": 50,
+            "2": 73,
+            "3": 23,
+            "4": 19,
+            "5": 5,
+            "6": 2,
+            "10": 1
+          },
+          "ventas_fuera_españa": {
+            "unidades": 0,
+            "porcentaje": 0.0
+          },
+          "ventas_por_dia_semana": {
+            "Monday": 39,
+            "Tuesday": 14,
+            "Wednesday": 30,
+            "Thursday": 38,
+            "Friday": 145,
+            "Saturday": 84,
+            "Sunday": 38
+          },
+          "publico_por_provincia": {
+            "Guipúzcoa": 44,
+            "Huesca": 3,
+            "Islas Baleares": 2,
+            "Navarra": 14,
+            "Vizcaya": 307,
+            "Álava": 18
+          }
+        }
+      },
+      {
+        "idConcierto": 111540,
+        "localidad": "Oiartzun",
+        "fecha": "2023-05-13",
+        "ventas": {
+          "total_entradas_vendidas": 447,
+          "recaudacion_bruta": 8940.0,
+          "recaudacion_neta": 7867.2,
+          "total_comisiones": 1072.8,
+          "total_descuentos": 0.0,
+          "ventas_por_modo_pago": {
+            "Tarjeta": 447
+          },
+          "ventas_por_plataforma": {
+            "Android": 241,
+            "Linux": 3,
+            "Mac OS X": 20,
+            "Unknown": 2,
+            "Windows": 96,
+            "Windows 7": 1,
+            "iPad": 3,
+            "iPhone": 81
+          },
+          "ventas_por_tipoWeb": {
+            "Web": 447
+          },
+          "porcentaje_ventas_con_descuento": 0.0,
+          "ticket_medio_general": 20.0,
+          "ventas_por_hora": {
+            "22": 47,
+            "20": 46,
+            "9": 36,
+            "21": 36,
+            "15": 33,
+            "14": 28,
+            "16": 27,
+            "18": 27,
+            "17": 26,
+            "19": 26,
+            "10": 20,
+            "12": 20,
+            "13": 20,
+            "8": 15,
+            "11": 13,
+            "23": 12,
+            "0": 9,
+            "7": 6
+          },
+          "ingresos_por_provincia_de_origen": {
+            "Guipúzcoa": 8440,
+            "Vizcaya": 140,
+            "Navarra": 120,
+            "Madrid": 60
+          },
+          "comparacion_taquilla_vs_online": {
+            "ventas_taquilla": 0,
+            "ventas_online": 447
+          },
+          "distribucion_compra_entradas": {
+            "1": 76,
+            "2": 100,
+            "3": 20,
+            "4": 15,
+            "5": 2,
+            "6": 4,
+            "7": 1,
+            "10": 1
+          },
+          "ventas_fuera_españa": {
+            "unidades": 0,
+            "porcentaje": 0.0
+          },
+          "ventas_por_dia_semana": {
+            "Monday": 33,
+            "Tuesday": 52,
+            "Wednesday": 24,
+            "Thursday": 53,
+            "Friday": 103,
+            "Saturday": 130,
+            "Sunday": 52
+          },
+          "publico_por_provincia": {
+            "Guipúzcoa": 422,
+            "Madrid": 3,
+            "Navarra": 6,
+            "Vizcaya": 7
+          }
+        }
+      },
+      {
+        "idConcierto": 113551,
+        "localidad": "Logroño",
+        "fecha": "2023-11-10",
+        "ventas": {
+          "total_entradas_vendidas": 125,
+          "recaudacion_bruta": 2500.0,
+          "recaudacion_neta": 2200.0,
+          "total_comisiones": 300.0,
+          "total_descuentos": 0.0,
+          "ventas_por_modo_pago": {
+            "Tarjeta": 125
+          },
+          "ventas_por_plataforma": {
+            "Android": 72,
+            "Mac OS X": 4,
+            "Windows": 16,
+            "iPhone": 33
+          },
+          "ventas_por_tipoWeb": {
+            "Web": 125
+          },
+          "porcentaje_ventas_con_descuento": 0.0,
+          "ticket_medio_general": 20.0,
+          "ventas_por_hora": {
+            "20": 24,
+            "21": 23,
+            "9": 12,
+            "16": 11,
+            "18": 8,
+            "19": 8,
+            "22": 8,
+            "14": 7,
+            "13": 6,
+            "23": 6,
+            "15": 4,
+            "7": 3,
+            "10": 2,
+            "12": 2,
+            "8": 1
+          },
+          "ingresos_por_provincia_de_origen": {
+            "Vizcaya": 800,
+            "Navarra": 760,
+            "Álava": 540,
+            "Guipúzcoa": 240,
+            "La Rioja": 80,
+            "Burgos": 40,
+            "Zaragoza": 40
+          },
+          "comparacion_taquilla_vs_online": {
+            "ventas_taquilla": 0,
+            "ventas_online": 125
+          },
+          "distribucion_compra_entradas": {
+            "1": 11,
+            "2": 23,
+            "3": 7,
+            "4": 4,
+            "5": 1,
+            "6": 3,
+            "8": 1
+          },
+          "ventas_fuera_españa": {
+            "unidades": 0,
+            "porcentaje": 0.0
+          },
+          "ventas_por_dia_semana": {
+            "Monday": 12,
+            "Tuesday": 8,
+            "Wednesday": 13,
+            "Thursday": 32,
+            "Friday": 28,
+            "Saturday": 15,
+            "Sunday": 17
+          },
+          "publico_por_provincia": {
+            "Burgos": 2,
+            "Guipúzcoa": 12,
+            "La Rioja": 4,
+            "Navarra": 38,
+            "Vizcaya": 40,
+            "Zaragoza": 2,
+            "Álava": 27
+          }
+        }
+      },
+      {
+        "idConcierto": 110225,
+        "localidad": "Atarrabia",
+        "fecha": "2023-11-11",
+        "ventas": {
+          "total_entradas_vendidas": 1100,
+          "recaudacion_bruta": 24200.0,
+          "recaudacion_neta": 21296.0,
+          "total_comisiones": 2904.0,
+          "total_descuentos": 0.0,
+          "ventas_por_modo_pago": {
+            "Tarjeta": 1100
+          },
+          "ventas_por_plataforma": {
+            "Android": 597,
+            "Linux": 18,
+            "Mac OS X": 18,
+            "Windows": 279,
+            "iPhone": 188
+          },
+          "ventas_por_tipoWeb": {
+            "Web": 1100
+          },
+          "porcentaje_ventas_con_descuento": 0.0,
+          "ticket_medio_general": 22.0,
+          "ventas_por_hora": {
+            "21": 112,
+            "18": 97,
+            "15": 86,
+            "22": 83,
+            "16": 77,
+            "19": 76,
+            "20": 75,
+            "17": 71,
+            "11": 61,
+            "12": 57,
+            "23": 54,
+            "9": 51,
+            "13": 49,
+            "10": 46,
+            "14": 44,
+            "8": 32,
+            "7": 8,
+            "0": 6,
+            "1": 6,
+            "2": 4,
+            "5": 4,
+            "6": 1
+          },
+          "ingresos_por_provincia_de_origen": {
+            "Navarra": 21890,
+            "Guipúzcoa": 990,
+            "Vizcaya": 770,
+            "Álava": 242,
+            "La Rioja": 176,
+            "Lleida": 44,
+            "Cantabria": 44,
+            "Barcelona": 22,
+            "Madrid": 22
+          },
+          "comparacion_taquilla_vs_online": {
+            "ventas_taquilla": 0,
+            "ventas_online": 1100
+          },
+          "distribucion_compra_entradas": {
+            "1": 124,
+            "2": 232,
+            "3": 66,
+            "4": 40,
+            "5": 18,
+            "6": 4,
+            "7": 3,
+            "9": 1,
+            "10": 1
+          },
+          "ventas_fuera_españa": {
+            "unidades": 0,
+            "porcentaje": 0.0
+          },
+          "ventas_por_dia_semana": {
+            "Monday": 161,
+            "Tuesday": 137,
+            "Wednesday": 128,
+            "Thursday": 186,
+            "Friday": 144,
+            "Saturday": 189,
+            "Sunday": 155
+          },
+          "publico_por_provincia": {
+            "Barcelona": 1,
+            "Cantabria": 2,
+            "Guipúzcoa": 45,
+            "La Rioja": 8,
+            "Lleida": 2,
+            "Madrid": 1,
+            "Navarra": 995,
+            "Vizcaya": 35,
+            "Álava": 11
+          }
+        }
+      }
+    ],
+    "Promo/presen": []
+  },
+  "top_10_conciertos_por_ocupacion": [],
+  "conciertos_excluidos_por_aforo": [],
+  "conciertos_con_entradas_agotadas": [],
+  "top_10_conciertos_por_venta_entradas": [
+    {
+      "idConcierto": 110225,
+      "localidad": "Atarrabia",
+      "fecha": "2023-11-11",
+      "entradas_vendidas": 1100,
+      "aforo": 1200,
+      "ocupacion_%": 91.67
+    },
+    {
+      "idConcierto": 111535,
+      "localidad": "Ondarroa",
+      "fecha": "2023-05-12",
+      "entradas_vendidas": 388,
+      "aforo": 475,
+      "ocupacion_%": 81.68
+    },
+    {
+      "idConcierto": 111540,
+      "localidad": "Oiartzun",
+      "fecha": "2023-05-13",
+      "entradas_vendidas": 447,
+      "aforo": 600,
+      "ocupacion_%": 74.5
+    },
+    {
+      "idConcierto": 113551,
+      "localidad": "Logroño",
+      "fecha": "2023-11-10",
+      "entradas_vendidas": 125,
+      "aforo": 200,
+      "ocupacion_%": 62.5
+    },
+    {
+      "idConcierto": 106392,
+      "localidad": "Madrid",
+      "fecha": "2023-04-15",
+      "entradas_vendidas": 277,
+      "aforo": 702,
+      "ocupacion_%": 39.46
+    },
+    {
+      "idConcierto": 108505,
+      "localidad": "Valencia",
+      "fecha": "2023-04-14",
+      "entradas_vendidas": 68,
+      "aforo": 260,
+      "ocupacion_%": 26.15
+    },
+    {
+      "idConcierto": 106393,
+      "localidad": "Barcelona",
+      "fecha": "2023-04-22",
+      "entradas_vendidas": 187,
+      "aforo": 800,
+      "ocupacion_%": 23.38
+    }
+  ]
+}

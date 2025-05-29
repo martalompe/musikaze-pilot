@@ -1,0 +1,12 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>concerts</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div style="max-height: 100%; position: relative">
+    mapa con los conciertos y su leyenda @if(data){
+    <app-concerts-map [data]="data.conciertos"></app-concerts-map>}
+  </div>
+</ion-content>

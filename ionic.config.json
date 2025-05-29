@@ -1,0 +1,7 @@
+{
+  "name": "musikaze-pilot",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
