@@ -51,9 +51,8 @@
     </ion-card>
   </div>
 
-  <div class="recaudaciones">
-    <span class="recaudaciones-title"> Recaudación </span>
-
+  <div class="recaudaciones-title"><span>Recaudación</span></div>
+  <ion-card class="recaudaciones">
     <table>
       <tr>
         <th>Ticket medio general</th>
@@ -71,7 +70,7 @@
         <td>{{concert?.ventas?.recaudacion_neta}}€</td>
       </tr>
     </table>
-  </div>
+  </ion-card>
 
   <div>
     <app-timeline-ventas-hora

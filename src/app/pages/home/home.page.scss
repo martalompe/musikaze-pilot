@@ -3,21 +3,28 @@
   flex-direction: column;
   gap: 15px;
 }
-
-.section-main-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-between;
+ion-segment-button ion-label {
+  font-size: medium;
 }
+.section-main-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
 .section-item {
   padding: 10px 15px;
   align-items: center;
   display: flex;
   flex-direction: column;
   gap: 5px;
+  font-size: medium;
   min-width: calc(20% - 20px);
-  color: black;
+}
+
+.section-item-title {
+  font-weight: bold;
+  text-align: center;
 }
 
 .section-item-content {
@@ -25,10 +32,13 @@
 }
 
 .section-tables {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+app-table-data {
+  width: 100%;
 }
 app-table-complex {
   margin: 10px;

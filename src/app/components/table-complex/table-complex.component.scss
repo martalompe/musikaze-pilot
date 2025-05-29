@@ -7,29 +7,30 @@ td {
 }
 
 th {
-  border-top: 2px solid rgb(51, 51, 51);
+  border-top: 2px solid rgba(105, 105, 105, 0.76);
 }
 
 .border-full {
-  border-right: 2px solid rgb(51, 51, 51);
-  border-left: 2px solid rgb(51, 51, 51);
+  border-right: 2px solid rgba(105, 105, 105, 0.76);
+  border-left: 2px solid rgba(105, 105, 105, 0.76);
 }
 
 .border-right {
-  border-right: 2px solid rgb(51, 51, 51);
+  border-right: 2px solid rgba(105, 105, 105, 0.76);
 }
 
 .border-left {
-  border-left: 2px solid rgb(51, 51, 51);
+  border-left: 2px solid rgba(105, 105, 105, 0.76);
 }
 
 .border-bottom {
-  border-bottom: 2px solid rgb(51, 51, 51);
+  border-bottom: 2px solid rgba(105, 105, 105, 0.76);
 }
 tr {
-  background-color: rgb(235, 235, 235);
+  background-color: white;
 }
 
 .header-table {
-  background-color: rgb(180, 180, 180);
+  background-color: #ebebeb;
+  font-weight: bold;
 }
