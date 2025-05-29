@@ -7,11 +7,7 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full',
   },
-  {
-    path: 'folder/:id',
-    loadChildren: () =>
-      import('./folder/folder.module').then((m) => m.FolderPageModule),
-  },
+
   {
     path: 'home',
     loadChildren: () =>
@@ -19,15 +15,22 @@ const routes: Routes = [
   },
   {
     path: 'concerts',
-    loadChildren: () => import('./pages/concerts/concerts.module').then( m => m.ConcertsPageModule)
+    loadChildren: () =>
+      import('./pages/concerts/concerts.module').then(
+        (m) => m.ConcertsPageModule
+      ),
   },
   {
     path: 'top-concerts',
-    loadChildren: () => import('./pages/top-concerts/top-concerts.module').then( m => m.TopConcertsPageModule)
+    loadChildren: () =>
+      import('./pages/top-concerts/top-concerts.module').then(
+        (m) => m.TopConcertsPageModule
+      ),
   },
   {
     path: 'concert',
-    loadChildren: () => import('./pages/concert/concert.module').then( m => m.ConcertPageModule)
+    loadChildren: () =>
+      import('./pages/concert/concert.module').then((m) => m.ConcertPageModule),
   },
 ];
 
