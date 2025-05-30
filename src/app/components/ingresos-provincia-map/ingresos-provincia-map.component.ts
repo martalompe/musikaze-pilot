@@ -46,7 +46,7 @@ export class IngresosProvinciaMapComponent implements OnInit {
             );
         });
       }
-    }, 250);
+    }, 500);
   }
 
   ngOnInit() {

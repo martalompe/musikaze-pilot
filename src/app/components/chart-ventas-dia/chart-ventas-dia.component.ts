@@ -29,7 +29,7 @@ export class ChartVentasDiaComponent implements OnInit {
   } = {
     series: [],
     chart: {
-      type: 'heatmap',
+      type: 'bar',
       height: 200,
       zoom: {
         enabled: false,
@@ -59,7 +59,7 @@ export class ChartVentasDiaComponent implements OnInit {
     },
     yaxis: {
       labels: {
-        show: false,
+        show: true,
       },
     },
     tooltip: {

@@ -42,7 +42,7 @@ export class PublicoProvinciaMapComponent implements OnInit {
             .bindPopup(`<b>${provincia}</b><br>${datos.cantidad} personas`);
         });
       }
-    }, 250);
+    }, 500);
   }
 
   ngOnInit() {

@@ -6,6 +6,7 @@ import {
   ApexDataLabels,
   ApexTitleSubtitle,
   ApexTooltip,
+  ApexPlotOptions,
 } from 'ng-apexcharts';
 
 @Component({
@@ -21,15 +22,21 @@ export class ChartDistribucionEntradasComponent implements OnInit {
   chartOptions: {
     series: ApexAxisChartSeries;
     chart: ApexChart;
-    xaxis: ApexXAxis;
-    yaxis: ApexYAxis;
     labels: string[];
     title: ApexTitleSubtitle;
     tooltip: ApexTooltip;
     dataLabels: ApexDataLabels;
+    plotOptions: ApexPlotOptions;
   } = {
     dataLabels: {
-      enabled: false,
+      enabled: true,
+    },
+    plotOptions: {
+      pie: {
+        dataLabels: {
+          offset: -10,
+        },
+      },
     },
     series: [],
     labels: [],
@@ -48,28 +55,6 @@ export class ChartDistribucionEntradasComponent implements OnInit {
       },
     },
 
-    xaxis: {
-      title: {
-        // text: 'Días de la semana',
-        style: {
-          fontFamily: 'Quicksand',
-        },
-      },
-      axisTicks: {
-        show: false,
-      },
-      axisBorder: {
-        show: false,
-      },
-      labels: {
-        show: false,
-      },
-    },
-    yaxis: {
-      labels: {
-        show: false,
-      },
-    },
     tooltip: {
       enabled: true,
       y: {
