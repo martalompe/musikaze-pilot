@@ -10,6 +10,7 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  <!--**********************Entradas vendidas general****************-->
   <div class="section">
     <ion-card class="section-item">
       <div class="section-item-title">Total entradas vendidas</div>
@@ -53,36 +54,124 @@
     </ion-card>
   </div>
 
+  <!--**************** Tabla de recaudaciones ************************-->
   <div class="recaudaciones-title"><span>Recaudación</span></div>
   <ion-card class="recaudaciones">
     <table>
       <tr>
         <th>Ticket medio general</th>
+        <th class="important">Recaudación bruta</th>
         <th>Comisiones</th>
         <th>Descuentos</th>
-        <th>Recaudación bruta</th>
-        <th>Recaudación neta</th>
+
+        <th class="important">Recaudación neta</th>
       </tr>
 
       <tr>
         <td>{{formatPrice(concert?.ventas?.ticket_medio_general)}}</td>
+        <td>{{formatPrice(concert?.ventas?.recaudacion_bruta)}}</td>
         <td>{{formatPrice(concert?.ventas?.total_comisiones)}}</td>
         <td>{{formatPrice(concert?.ventas?.total_descuentos)}}</td>
-        <td>{{formatPrice(concert?.ventas?.recaudacion_bruta)}}</td>
+
         <td>{{formatPrice(concert?.ventas?.recaudacion_neta)}}</td>
       </tr>
     </table>
   </ion-card>
 
+  <!--**************** Entradas vendidas por hora ************************-->
   <div>
     <app-timeline-ventas-hora
       [ventas]="concert?.ventas?.ventas_por_hora"
     ></app-timeline-ventas-hora>
   </div>
 
+  <!--************** Entradas vendidas por día de la semana *****************-->
   <div>
     <app-chart-ventas-dia
       [ventas]="concert?.ventas?.ventas_por_dia_semana"
     ></app-chart-ventas-dia>
+  </div>
+
+  <!--**************** Mapas de datos por provincia ************************-->
+  <div class="maps">
+    <div class="map-item">
+      <span class="recaudaciones-title">Público por provincia</span>
+      <app-publico-provincia-map
+        [data]="concert?.ventas?.publico_por_provincia"
+      ></app-publico-provincia-map>
+    </div>
+    <div class="map-item">
+      <span class="recaudaciones-title">Ingresos por provincia</span>
+      @if(concert){
+      <app-ingresos-provincia-map
+        [data]="concert?.ventas?.ingresos_por_provincia_de_origen"
+      ></app-ingresos-provincia-map
+      >}
+    </div>
+  </div>
+
+  <!--**************** Tabla de ventas por plataforma ************************-->
+  <div class="recaudaciones-title"><span>Ventas por plataforma</span></div>
+  <ion-card class="recaudaciones">
+    <table>
+      <tr>
+        <th
+          *ngFor="let item of concert?.ventas?.ventas_por_plataforma | keyvalue"
+        >
+          {{item.key}}
+        </th>
+      </tr>
+
+      <tr>
+        <td
+          *ngFor="let item of concert?.ventas?.ventas_por_plataforma | keyvalue"
+        >
+          {{item.value}} entradas
+        </td>
+      </tr>
+    </table>
+  </ion-card>
+
+  <!--Sección de gráfica distribución compra de entradas + ventas descuento y ventas fuera de España-->
+  <div class="container">
+    <div class="left">
+      <ion-card style="padding: 20px 10px; min-height: max-content"
+        ><app-chart-distribucion-entradas
+          [ventas]="concert?.ventas?.distribucion_compra_entradas
+"
+        ></app-chart-distribucion-entradas
+      ></ion-card>
+    </div>
+    <div class="right">
+      <ion-card class="section-item">
+        <div class="section-item-title">Ventas con descuento</div>
+
+        <div class="section-item-content">
+          <div class="item main">
+            <span>{{concert?.ventas?.porcentaje_ventas_con_descuento}}% </span>
+          </div>
+        </div>
+      </ion-card>
+      <ion-card class="section-item">
+        <div class="section-item-title">Ventas fuera de España</div>
+        <div class="section-item-content">
+          <div class="item">
+            <ion-icon name="ticket-outline"></ion-icon>
+            <span
+              >Unidades: {{concert?.ventas["ventas_fuera_españa"].unidades}}
+              {{concert?.ventas["ventas_fuera_españa"].unidades === 1?
+              'entrada': 'entradas'}}
+            </span>
+          </div>
+          <div class="item">
+            <ion-icon name="bar-chart-outline"></ion-icon>
+            <span
+              >Porcentaje:
+              {{concert?.ventas["ventas_fuera_españa"].porcentaje}}%
+            </span>
+          </div>
+        </div>
+      </ion-card>
+    </div>
   </div>
 </ion-content>

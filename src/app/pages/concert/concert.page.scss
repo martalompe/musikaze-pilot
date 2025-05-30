@@ -2,39 +2,37 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
+}
+.section-item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: medium;
+  .section-item-title {
+    display: flex;
+    font-weight: bold;
+  }
 
-  .section-item {
-    padding: 10px;
+  .section-item-content {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    font-size: medium;
-    .section-item-title {
-      display: flex;
-      font-weight: bold;
-    }
+  }
 
-    .section-item-content {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
+  .item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
 
-    .item {
-      display: flex;
-      gap: 5px;
-      align-items: center;
-    }
-
-    .main {
-      width: 100%;
-      text-align: center;
-      justify-content: center;
-      font-size: xx-large;
-    }
+  .main {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
   }
 }
-
 table {
   width: 100%;
   // color: #686868;
@@ -43,6 +41,11 @@ table {
   }
   td {
     background-color: white;
+  }
+
+  .important {
+    background-color: #cccccc;
+    color: white;
   }
 }
 
@@ -55,4 +58,33 @@ table {
   margin-top: 10px;
   font-weight: bold;
   color: #686868;
+}
+
+.maps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.left {
+  grid-row: 1 / span 2;
+}
+
+.right {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.right ion-card {
+  height: 100%;
 }

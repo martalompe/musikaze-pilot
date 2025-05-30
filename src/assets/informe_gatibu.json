@@ -421,13 +421,41 @@
             "1": 1
           },
           "ingresos_por_provincia_de_origen": {
-            "Valencia": 645,
-            "Castellón": 165,
-            "Vizcaya": 90,
-            "Guipúzcoa": 60,
-            "Álava": 30,
-            "Alicante": 15,
-            "Madrid": 15
+            "Valencia": {
+              "cantidad": 645,
+              "longitud": 39.464413,
+              "latitud": -0.364274
+            },
+            "Castellón": {
+              "cantidad": 165,
+              "longitud": 39.984476,
+              "latitud": 0.018967
+            },
+            "Vizcaya": {
+              "cantidad": 90,
+              "longitud": 43.269575,
+              "latitud": -2.799865
+            },
+            "Guipúzcoa": {
+              "cantidad": 60,
+              "longitud": 43.161251,
+              "latitud": -2.143855
+            },
+            "Álava": {
+              "cantidad": 30,
+              "longitud": 42.87107,
+              "latitud": -2.694045
+            },
+            "Alicante": {
+              "cantidad": 15,
+              "longitud": 38.361312,
+              "latitud": -0.481798
+            },
+            "Madrid": {
+              "cantidad": 15,
+              "longitud": 40.416407,
+              "latitud": -3.666506
+            }
           },
           "comparacion_taquilla_vs_online": {
             "ventas_taquilla": 0,
@@ -453,13 +481,41 @@
             "Sunday": 3
           },
           "publico_por_provincia": {
-            "Alicante": 1,
-            "Castellón": 11,
-            "Guipúzcoa": 4,
-            "Madrid": 1,
-            "Valencia": 43,
-            "Vizcaya": 6,
-            "Álava": 2
+            "Alicante": {
+              "cantidad": 1,
+              "longitud": 38.361312,
+              "latitud": -0.481798
+            },
+            "Castellón": {
+              "cantidad": 11,
+              "longitud": 39.984476,
+              "latitud": 0.018967
+            },
+            "Guipúzcoa": {
+              "cantidad": 4,
+              "longitud": 43.161251,
+              "latitud": -2.143855
+            },
+            "Madrid": {
+              "cantidad": 1,
+              "longitud": 40.416407,
+              "latitud": -3.666506
+            },
+            "Valencia": {
+              "cantidad": 43,
+              "longitud": 39.464413,
+              "latitud": -0.364274
+            },
+            "Vizcaya": {
+              "cantidad": 6,
+              "longitud": 43.269575,
+              "latitud": -2.799865
+            },
+            "Álava": {
+              "cantidad": 2,
+              "longitud": 42.87107,
+              "latitud": -2.694045
+            }
           }
         }
       },
@@ -512,16 +568,56 @@
             "6": 1
           },
           "ingresos_por_provincia_de_origen": {
-            "Madrid": 2898,
-            "Vizcaya": 1422,
-            "Guipúzcoa": 198,
-            "Álava": 108,
-            "Huelva": 72,
-            "Navarra": 54,
-            "Toledo": 54,
-            "Jaén": 54,
-            "Segovia": 36,
-            "Granada": 18
+            "Madrid": {
+              "cantidad": 2898,
+              "longitud": 40.416407,
+              "latitud": -3.666506
+            },
+            "Vizcaya": {
+              "cantidad": 1422,
+              "longitud": 43.269575,
+              "latitud": -2.799865
+            },
+            "Guipúzcoa": {
+              "cantidad": 198,
+              "longitud": 43.161251,
+              "latitud": -2.143855
+            },
+            "Álava": {
+              "cantidad": 108,
+              "longitud": 42.87107,
+              "latitud": -2.694045
+            },
+            "Huelva": {
+              "cantidad": 72,
+              "longitud": 37.26629,
+              "latitud": -6.937287
+            },
+            "Navarra": {
+              "cantidad": 54,
+              "longitud": 42.665402,
+              "latitud": -1.645968
+            },
+            "Toledo": {
+              "cantidad": 54,
+              "longitud": 39.870391,
+              "latitud": -4.015282
+            },
+            "Jaén": {
+              "cantidad": 54,
+              "longitud": 37.77656,
+              "latitud": -3.791888
+            },
+            "Segovia": {
+              "cantidad": 36,
+              "longitud": 40.940983,
+              "latitud": -4.111173
+            },
+            "Granada": {
+              "cantidad": 18,
+              "longitud": 37.177246,
+              "latitud": -3.600542
+            }
           },
           "comparacion_taquilla_vs_online": {
             "ventas_taquilla": 0,
@@ -549,16 +645,56 @@
             "Sunday": 37
           },
           "publico_por_provincia": {
-            "Granada": 1,
-            "Guipúzcoa": 11,
-            "Huelva": 4,
-            "Jaén": 3,
-            "Madrid": 161,
-            "Navarra": 3,
-            "Segovia": 2,
-            "Toledo": 3,
-            "Vizcaya": 79,
-            "Álava": 6
+            "Granada": {
+              "cantidad": 1,
+              "longitud": 37.177246,
+              "latitud": -3.600542
+            },
+            "Guipúzcoa": {
+              "cantidad": 11,
+              "longitud": 43.161251,
+              "latitud": -2.143855
+            },
+            "Huelva": {
+              "cantidad": 4,
+              "longitud": 37.26629,
+              "latitud": -6.937287
+            },
+            "Jaén": {
+              "cantidad": 3,
+              "longitud": 37.77656,
+              "latitud": -3.791888
+            },
+            "Madrid": {
+              "cantidad": 161,
+              "longitud": 40.416407,
+              "latitud": -3.666506
+            },
+            "Navarra": {
+              "cantidad": 3,
+              "longitud": 42.665402,
+              "latitud": -1.645968
+            },
+            "Segovia": {
+              "cantidad": 2,
+              "longitud": 40.940983,
+              "latitud": -4.111173
+            },
+            "Toledo": {
+              "cantidad": 3,
+              "longitud": 39.870391,
+              "latitud": -4.015282
+            },
+            "Vizcaya": {
+              "cantidad": 79,
+              "longitud": 43.269575,
+              "latitud": -2.799865
+            },
+            "Álava": {
+              "cantidad": 6,
+              "longitud": 42.87107,
+              "latitud": -2.694045
+            }
           }
         }
       },
@@ -612,16 +748,56 @@
             "2": 1
           },
           "ingresos_por_provincia_de_origen": {
-            "Barcelona": 1962,
-            "Vizcaya": 450,
-            "Guipúzcoa": 360,
-            "Tarragona": 144,
-            "Navarra": 108,
-            "Madrid": 90,
-            "Alicante": 36,
-            "Cantabria": 36,
-            "Lleida": 36,
-            "Castellón": 36
+            "Barcelona": {
+              "cantidad": 1962,
+              "longitud": 41.400532,
+              "latitud": 2.167566
+            },
+            "Vizcaya": {
+              "cantidad": 450,
+              "longitud": 43.269575,
+              "latitud": -2.799865
+            },
+            "Guipúzcoa": {
+              "cantidad": 360,
+              "longitud": 43.161251,
+              "latitud": -2.143855
+            },
+            "Tarragona": {
+              "cantidad": 144,
+              "longitud": 41.120496,
+              "latitud": 1.244247
+            },
+            "Navarra": {
+              "cantidad": 108,
+              "longitud": 42.665402,
+              "latitud": -1.645968
+            },
+            "Madrid": {
+              "cantidad": 90,
+              "longitud": 40.416407,
+              "latitud": -3.666506
+            },
+            "Alicante": {
+              "cantidad": 36,
+              "longitud": 38.361312,
+              "latitud": -0.481798
+            },
+            "Cantabria": {
+              "cantidad": 36,
+              "longitud": 43.212097,
+              "latitud": -4.0339
+            },
+            "Lleida": {
+              "cantidad": 36,
+              "longitud": 41.619105,
+              "latitud": 0.625084
+            },
+            "Castellón": {
+              "cantidad": 36,
+              "longitud": 39.984476,
+              "latitud": 0.018967
+            }
           },
           "comparacion_taquilla_vs_online": {
             "ventas_taquilla": 0,
@@ -648,18 +824,66 @@
             "Sunday": 16
           },
           "publico_por_provincia": {
-            "Alicante": 2,
-            "Badajoz": 1,
-            "Barcelona": 109,
-            "Cantabria": 2,
-            "Castellón": 2,
-            "Cádiz": 1,
-            "Guipúzcoa": 20,
-            "Lleida": 2,
-            "Madrid": 5,
-            "Navarra": 6,
-            "Tarragona": 8,
-            "Vizcaya": 25
+            "Alicante": {
+              "cantidad": 2,
+              "longitud": 38.361312,
+              "latitud": -0.481798
+            },
+            "Badajoz": {
+              "cantidad": 1,
+              "longitud": 38.877149,
+              "latitud": -6.971172
+            },
+            "Barcelona": {
+              "cantidad": 109,
+              "longitud": 41.386895,
+              "latitud": 2.169893
+            },
+            "Cantabria": {
+              "cantidad": 2,
+              "longitud": 43.206344,
+              "latitud": -3.975989
+            },
+            "Castellón": {
+              "cantidad": 2,
+              "longitud": 39.984476,
+              "latitud": 0.018967
+            },
+            "Cádiz": {
+              "cantidad": 1,
+              "longitud": 36.518448,
+              "latitud": -6.278863
+            },
+            "Guipúzcoa": {
+              "cantidad": 20,
+              "longitud": 43.161251,
+              "latitud": -2.143855
+            },
+            "Lleida": {
+              "cantidad": 2,
+              "longitud": 41.617095,
+              "latitud": 0.620385
+            },
+            "Madrid": {
+              "cantidad": 5,
+              "longitud": 40.416407,
+              "latitud": -3.666506
+            },
+            "Navarra": {
+              "cantidad": 6,
+              "longitud": 42.665402,
+              "latitud": -1.645968
+            },
+            "Tarragona": {
+              "cantidad": 8,
+              "longitud": 41.118107,
+              "latitud": 1.244531
+            },
+            "Vizcaya": {
+              "cantidad": 25,
+              "longitud": 43.269575,
+              "latitud": -2.799865
+            }
           }
         }
       },
@@ -714,12 +938,36 @@
             "7": 2
           },
           "ingresos_por_provincia_de_origen": {
-            "Vizcaya": 6140,
-            "Guipúzcoa": 880,
-            "Álava": 360,
-            "Navarra": 280,
-            "Huesca": 60,
-            "Islas Baleares": 40
+            "Vizcaya": {
+              "cantidad": 6140,
+              "longitud": 43.269575,
+              "latitud": -2.799865
+            },
+            "Guipúzcoa": {
+              "cantidad": 880,
+              "longitud": 43.161251,
+              "latitud": -2.143855
+            },
+            "Álava": {
+              "cantidad": 360,
+              "longitud": 42.87107,
+              "latitud": -2.694045
+            },
+            "Navarra": {
+              "cantidad": 280,
+              "longitud": 42.665402,
+              "latitud": -1.645968
+            },
+            "Huesca": {
+              "cantidad": 60,
+              "longitud": 42.134695,
+              "latitud": -0.40911
+            },
+            "Islas Baleares": {
+              "cantidad": 40,
+              "longitud": 39.580327,
+              "latitud": 3.025773
+            }
           },
           "comparacion_taquilla_vs_online": {
             "ventas_taquilla": 0,
@@ -748,12 +996,36 @@
             "Sunday": 38
           },
           "publico_por_provincia": {
-            "Guipúzcoa": 44,
-            "Huesca": 3,
-            "Islas Baleares": 2,
-            "Navarra": 14,
-            "Vizcaya": 307,
-            "Álava": 18
+            "Guipúzcoa": {
+              "cantidad": 44,
+              "longitud": 43.161251,
+              "latitud": -2.143855
+            },
+            "Huesca": {
+              "cantidad": 3,
+              "longitud": 42.133549,
+              "latitud": -0.40911
+            },
+            "Islas Baleares": {
+              "cantidad": 2,
+              "longitud": 39.596971,
+              "latitud": 2.991615
+            },
+            "Navarra": {
+              "cantidad": 14,
+              "longitud": 42.665402,
+              "latitud": -1.645968
+            },
+            "Vizcaya": {
+              "cantidad": 307,
+              "longitud": 43.269575,
+              "latitud": -2.799865
+            },
+            "Álava": {
+              "cantidad": 18,
+              "longitud": 42.87107,
+              "latitud": -2.694045
+            }
           }
         }
       },
@@ -808,10 +1080,26 @@
             "7": 6
           },
           "ingresos_por_provincia_de_origen": {
-            "Guipúzcoa": 8440,
-            "Vizcaya": 140,
-            "Navarra": 120,
-            "Madrid": 60
+            "Guipúzcoa": {
+              "cantidad": 8440,
+              "longitud": 43.161251,
+              "latitud": -2.143855
+            },
+            "Vizcaya": {
+              "cantidad": 140,
+              "longitud": 43.269575,
+              "latitud": -2.799865
+            },
+            "Navarra": {
+              "cantidad": 120,
+              "longitud": 42.665402,
+              "latitud": -1.645968
+            },
+            "Madrid": {
+              "cantidad": 60,
+              "longitud": 40.416407,
+              "latitud": -3.666506
+            }
           },
           "comparacion_taquilla_vs_online": {
             "ventas_taquilla": 0,
@@ -841,10 +1129,26 @@
             "Sunday": 52
           },
           "publico_por_provincia": {
-            "Guipúzcoa": 422,
-            "Madrid": 3,
-            "Navarra": 6,
-            "Vizcaya": 7
+            "Guipúzcoa": {
+              "cantidad": 422,
+              "longitud": 43.161251,
+              "latitud": -2.143855
+            },
+            "Madrid": {
+              "cantidad": 3,
+              "longitud": 40.416407,
+              "latitud": -3.666506
+            },
+            "Navarra": {
+              "cantidad": 6,
+              "longitud": 42.665402,
+              "latitud": -1.645968
+            },
+            "Vizcaya": {
+              "cantidad": 7,
+              "longitud": 43.269575,
+              "latitud": -2.799865
+            }
           }
         }
       },
@@ -892,13 +1196,41 @@
             "8": 1
           },
           "ingresos_por_provincia_de_origen": {
-            "Vizcaya": 800,
-            "Navarra": 760,
-            "Álava": 540,
-            "Guipúzcoa": 240,
-            "La Rioja": 80,
-            "Burgos": 40,
-            "Zaragoza": 40
+            "Vizcaya": {
+              "cantidad": 800,
+              "longitud": 43.269575,
+              "latitud": -2.799865
+            },
+            "Navarra": {
+              "cantidad": 760,
+              "longitud": 42.665402,
+              "latitud": -1.645968
+            },
+            "Álava": {
+              "cantidad": 540,
+              "longitud": 42.87107,
+              "latitud": -2.694045
+            },
+            "Guipúzcoa": {
+              "cantidad": 240,
+              "longitud": 43.161251,
+              "latitud": -2.143855
+            },
+            "La Rioja": {
+              "cantidad": 80,
+              "longitud": 42.287888,
+              "latitud": -2.494616
+            },
+            "Burgos": {
+              "cantidad": 40,
+              "longitud": 42.347544,
+              "latitud": -3.697784
+            },
+            "Zaragoza": {
+              "cantidad": 40,
+              "longitud": 41.650786,
+              "latitud": -0.890519
+            }
           },
           "comparacion_taquilla_vs_online": {
             "ventas_taquilla": 0,
@@ -927,13 +1259,41 @@
             "Sunday": 17
           },
           "publico_por_provincia": {
-            "Burgos": 2,
-            "Guipúzcoa": 12,
-            "La Rioja": 4,
-            "Navarra": 38,
-            "Vizcaya": 40,
-            "Zaragoza": 2,
-            "Álava": 27
+            "Burgos": {
+              "cantidad": 2,
+              "longitud": 42.348305,
+              "latitud": -3.69229
+            },
+            "Guipúzcoa": {
+              "cantidad": 12,
+              "longitud": 43.161251,
+              "latitud": -2.143855
+            },
+            "La Rioja": {
+              "cantidad": 4,
+              "longitud": 42.273664,
+              "latitud": -2.393017
+            },
+            "Navarra": {
+              "cantidad": 38,
+              "longitud": 42.665402,
+              "latitud": -1.645968
+            },
+            "Vizcaya": {
+              "cantidad": 40,
+              "longitud": 43.269575,
+              "latitud": -2.799865
+            },
+            "Zaragoza": {
+              "cantidad": 2,
+              "longitud": 41.65127,
+              "latitud": -0.885246
+            },
+            "Álava": {
+              "cantidad": 27,
+              "longitud": 42.87107,
+              "latitud": -2.694045
+            }
           }
         }
       },
@@ -989,15 +1349,51 @@
             "6": 1
           },
           "ingresos_por_provincia_de_origen": {
-            "Navarra": 21890,
-            "Guipúzcoa": 990,
-            "Vizcaya": 770,
-            "Álava": 242,
-            "La Rioja": 176,
-            "Lleida": 44,
-            "Cantabria": 44,
-            "Barcelona": 22,
-            "Madrid": 22
+            "Navarra": {
+              "cantidad": 21890,
+              "longitud": 42.665402,
+              "latitud": -1.645968
+            },
+            "Guipúzcoa": {
+              "cantidad": 990,
+              "longitud": 43.161251,
+              "latitud": -2.143855
+            },
+            "Vizcaya": {
+              "cantidad": 770,
+              "longitud": 43.269575,
+              "latitud": -2.799865
+            },
+            "Álava": {
+              "cantidad": 242,
+              "longitud": 42.87107,
+              "latitud": -2.694045
+            },
+            "La Rioja": {
+              "cantidad": 176,
+              "longitud": 42.287888,
+              "latitud": -2.494616
+            },
+            "Lleida": {
+              "cantidad": 44,
+              "longitud": 41.617243,
+              "latitud": 0.626261
+            },
+            "Cantabria": {
+              "cantidad": 44,
+              "longitud": 43.212097,
+              "latitud": -4.0339
+            },
+            "Barcelona": {
+              "cantidad": 22,
+              "longitud": 41.400532,
+              "latitud": 2.167566
+            },
+            "Madrid": {
+              "cantidad": 22,
+              "longitud": 40.416407,
+              "latitud": -3.666506
+            }
           },
           "comparacion_taquilla_vs_online": {
             "ventas_taquilla": 0,
@@ -1028,15 +1424,51 @@
             "Sunday": 155
           },
           "publico_por_provincia": {
-            "Barcelona": 1,
-            "Cantabria": 2,
-            "Guipúzcoa": 45,
-            "La Rioja": 8,
-            "Lleida": 2,
-            "Madrid": 1,
-            "Navarra": 995,
-            "Vizcaya": 35,
-            "Álava": 11
+            "Barcelona": {
+              "cantidad": 1,
+              "longitud": 41.386895,
+              "latitud": 2.169893
+            },
+            "Cantabria": {
+              "cantidad": 2,
+              "longitud": 43.206344,
+              "latitud": -3.975989
+            },
+            "Guipúzcoa": {
+              "cantidad": 45,
+              "longitud": 43.161251,
+              "latitud": -2.143855
+            },
+            "La Rioja": {
+              "cantidad": 8,
+              "longitud": 42.273664,
+              "latitud": -2.393017
+            },
+            "Lleida": {
+              "cantidad": 2,
+              "longitud": 41.617095,
+              "latitud": 0.620385
+            },
+            "Madrid": {
+              "cantidad": 1,
+              "longitud": 40.416407,
+              "latitud": -3.666506
+            },
+            "Navarra": {
+              "cantidad": 995,
+              "longitud": 42.665402,
+              "latitud": -1.645968
+            },
+            "Vizcaya": {
+              "cantidad": 35,
+              "longitud": 43.269575,
+              "latitud": -2.799865
+            },
+            "Álava": {
+              "cantidad": 11,
+              "longitud": 42.87107,
+              "latitud": -2.694045
+            }
           }
         }
       }
